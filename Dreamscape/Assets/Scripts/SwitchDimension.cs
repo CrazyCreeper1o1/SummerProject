@@ -22,7 +22,7 @@ public class SwitchDimension : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetButtonDown("Primary Ability"))
         {
             isNight = !isNight;
             nightnight.SetActive(isNight);
